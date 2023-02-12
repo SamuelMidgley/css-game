@@ -1,0 +1,25 @@
+.cssgame-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--font-color);
+  justify-content: space-between;
+}
+
+.cssgame-color_block {
+  height: 200px;
+  width: 200px;
+}
+
+.cssgame-color_block:hover {
+  background-color: black;
+}
+
+.cssgame-options {
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
